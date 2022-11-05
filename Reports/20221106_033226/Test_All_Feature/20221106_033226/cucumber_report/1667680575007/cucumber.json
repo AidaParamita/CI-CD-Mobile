@@ -1,0 +1,151 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 13,
+        "name": "User View Detail",
+        "description": "",
+        "id": "user-view-detail;user-view-detail;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 32123162800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I open Application",
+            "match": {
+              "location": "AuthSteps.openAPk()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1580987800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click icon login",
+            "match": {
+              "location": "AuthSteps.clickIconLogin()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5516219000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I fill correct email olaf@gmail.com and password olafaja",
+            "match": {
+              "arguments": [
+                {
+                  "val": "olaf@gmail.com",
+                  "offset": 21
+                },
+                {
+                  "val": "olafaja",
+                  "offset": 49
+                }
+              ],
+              "location": "AuthSteps.correctLogin(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 857594700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click login button",
+            "match": {
+              "location": "AuthSteps.clickButtonLogin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 465900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I in homepage",
+            "match": {
+              "location": "AuthSteps.homepage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1666311700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I see detail product",
+            "match": {
+              "location": "HomepageSteps.seeDetailProduct()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "User View Detail - without login",
+        "description": "",
+        "id": "user-view-detail;user-view-detail---without-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 32175345300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I open Application",
+            "match": {
+              "location": "AuthSteps.openAPk()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 587400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I in homepage",
+            "match": {
+              "location": "AuthSteps.homepage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1520067600,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I see detail product",
+            "match": {
+              "location": "HomepageSteps.seeDetailProduct()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "User View Detail",
+    "description": "",
+    "id": "user-view-detail",
+    "keyword": "Feature",
+    "uri": "E:/TUGAS/Kampus Merdeka/Clone4/QE_Aida-Paramita/31_Mini Project/praktikum/CI-CD-Mobile/Include/features/ViewDetailItems.feature",
+    "tags": []
+  }
+]

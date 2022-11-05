@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="75.454711">
+<testcase classname="User View Detail" name="User View Detail" time="41.754604">
+<system-out><![CDATA[Given I open Application....................................................passed
+When I click icon login.....................................................passed
+And I fill correct email olaf@gmail.com and password olafaja................passed
+And I click login button....................................................passed
+And I in homepage...........................................................passed
+Then I see detail product...................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="User View Detail" name="User View Detail - without login" time="33.700107">
+<system-out><![CDATA[Given I open Application....................................................passed
+And I in homepage...........................................................passed
+Then I see detail product...................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

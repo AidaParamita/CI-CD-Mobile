@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test_All_Feature,,,,2022-11-06 03:32:29,2022-11-06 03:39:42,"7m - 12,635s",FAILED
+,,,,,,,
+Test Cases/TestAll,,,,2022-11-06 03:32:30,2022-11-06 03:39:42,"7m - 12,293s",FAILED
+"runFeatureFile(""Include/features/Register.feature"")",,,,2022-11-06 03:32:30,2022-11-06 03:34:18,"1m - 47,954s",PASSED
+"runFeatureFile(""Include/features/Login.feature"")",,,,2022-11-06 03:34:18,2022-11-06 03:35:34,"1m - 16,142s",PASSED
+"runFeatureFile(""Include/features/Logout.feature"")",,,,2022-11-06 03:35:34,2022-11-06 03:36:15,"40,217s",PASSED
+"runFeatureFile(""Include/features/ViewDetailItems.feature"")",,,,2022-11-06 03:36:15,2022-11-06 03:37:30,"1m - 15,537s",PASSED
+"runFeatureFile(""Include/features/AddItemtoCart.feature"")",,,,2022-11-06 03:37:30,2022-11-06 03:39:42,"2m - 11,879s",FAILED

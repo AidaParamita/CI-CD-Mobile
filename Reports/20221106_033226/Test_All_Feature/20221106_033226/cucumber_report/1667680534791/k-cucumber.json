@@ -1,0 +1,125 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "BDD_TESTRUN_UUID": "caece8a0-d83c-4a37-8a9e-931612167d90",
+        "line": 14,
+        "name": "User logout",
+        "description": "",
+        "id": "logout;user-logout;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 30168738900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I open Application",
+            "match": {
+              "location": "AuthSteps.openAPk()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "cf82bfd7-dca5-4e69-abc8-9dce36ae28c6"
+          },
+          {
+            "result": {
+              "duration": 1715827200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click icon login",
+            "match": {
+              "location": "AuthSteps.clickIconLogin()"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "edc40c78-2bbe-4a2c-97a1-62795e702e59"
+          },
+          {
+            "result": {
+              "duration": 5183868200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I fill correct email olaf@gmail.com and password olafaja",
+            "match": {
+              "arguments": [
+                {
+                  "val": "olaf@gmail.com",
+                  "offset": 21
+                },
+                {
+                  "val": "olafaja",
+                  "offset": 49
+                }
+              ],
+              "location": "AuthSteps.correctLogin(String,String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "33f6264b-843a-459e-b0f9-f9b98adeada2"
+          },
+          {
+            "result": {
+              "duration": 846824500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click login button",
+            "match": {
+              "location": "AuthSteps.clickButtonLogin()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "d1713810-f714-4c3d-b1fc-edcd0f7e1e85"
+          },
+          {
+            "result": {
+              "duration": 563600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I in homepage",
+            "match": {
+              "location": "AuthSteps.homepage()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "36f21ae7-f302-48be-8ea2-502018b2f6e4"
+          },
+          {
+            "result": {
+              "duration": 588900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "i click icon logout",
+            "match": {
+              "location": "AuthSteps.clickButtonLogout()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "20d9abe7-8a5e-4a5b-9942-22332ec32c30"
+          },
+          {
+            "result": {
+              "duration": 2196488600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I logout",
+            "match": {
+              "location": "AuthSteps.logout()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "097c7322-88b2-4a65-9159-83fb2fca1cbd"
+          }
+        ]
+      }
+    ],
+    "name": "Logout",
+    "description": "",
+    "id": "logout",
+    "keyword": "Feature",
+    "uri": "E:/TUGAS/Kampus Merdeka/Clone4/QE_Aida-Paramita/31_Mini Project/praktikum/CI-CD-Mobile/Include/features/Logout.feature",
+    "tags": []
+  }
+]

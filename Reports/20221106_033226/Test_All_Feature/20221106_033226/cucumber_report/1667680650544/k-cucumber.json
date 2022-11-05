@@ -1,0 +1,216 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "BDD_TESTRUN_UUID": "f221c049-06ce-428c-8b8b-748eaca04d0b",
+        "line": 15,
+        "name": "Add Items to Cart",
+        "description": "",
+        "id": "add-items-to-cart;add-items-to-cart;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 31152322600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I open Application",
+            "match": {
+              "location": "AuthSteps.openAPk()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "9341fc42-2848-4f1d-a1d6-b8f821625831"
+          },
+          {
+            "result": {
+              "duration": 1617384700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click icon login",
+            "match": {
+              "location": "AuthSteps.clickIconLogin()"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "92801c1c-682a-4a7a-bf6d-965588fc70b6"
+          },
+          {
+            "result": {
+              "duration": 5205420800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I fill correct email olaf@gmail.com and password olafaja",
+            "match": {
+              "arguments": [
+                {
+                  "val": "olaf@gmail.com",
+                  "offset": 21
+                },
+                {
+                  "val": "olafaja",
+                  "offset": 49
+                }
+              ],
+              "location": "AuthSteps.correctLogin(String,String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "ad046aaa-8449-432d-8793-d0db7aceef15"
+          },
+          {
+            "result": {
+              "duration": 873412300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click login button",
+            "match": {
+              "location": "AuthSteps.clickButtonLogin()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "fe161cd4-05ea-4660-9d42-816e097dcb7f"
+          },
+          {
+            "result": {
+              "duration": 388900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I in homepage",
+            "match": {
+              "location": "AuthSteps.homepage()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "315fe7b6-d096-40df-89dc-4d307f799392"
+          },
+          {
+            "result": {
+              "duration": 486900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I select product",
+            "match": {
+              "location": "HomepageSteps.selectProduct()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "d9d72135-a7c8-4d43-ac50-b100cd93b381"
+          },
+          {
+            "result": {
+              "duration": 423000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click button Beli for add to cart",
+            "match": {
+              "location": "HomepageSteps.clickButtonBeli()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "47eccce7-eb58-455c-9d92-a3d24aaa8ef9"
+          },
+          {
+            "result": {
+              "error_message": "com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Homepage/Add_Item_to_Cart/android.widget.Button (2) not found\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)\r\n\tat com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)\r\n\tat com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)\r\n\tat com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)\r\n\tat com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)\r\n\tat com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)\r\n\tat com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)\r\n\tat com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1490)\r\n\tat com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$0.call(Unknown Source)\r\n\tat HomepageSteps.addItemToCart(HomepageSteps.groovy:59)\r\n\tat ✽.Items add to cart(E:/TUGAS/Kampus Merdeka/Clone4/QE_Aida-Paramita/31_Mini Project/praktikum/CI-CD-Mobile/Include/features/AddItemtoCart.feature:11)\r\n",
+              "duration": 31386676600,
+              "status": "failed"
+            },
+            "line": 11,
+            "name": "Items add to cart",
+            "match": {
+              "location": "HomepageSteps.addItemToCart()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "2bfed890-4858-4dfb-8b35-fb73fb4b13ea"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "2c2935b5-4b3f-42b2-8327-2d0cb7dd86c7",
+        "line": 17,
+        "name": "Add Items to Cart - without login",
+        "description": "",
+        "id": "add-items-to-cart;add-items-to-cart---without-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 30215485700,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I open Application",
+            "match": {
+              "location": "AuthSteps.openAPk()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "a66fc733-e11a-4bdd-90ea-31a200f0ea83"
+          },
+          {
+            "result": {
+              "duration": 651100,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I in homepage",
+            "match": {
+              "location": "AuthSteps.homepage()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "94b7742b-c660-4a48-beb6-6ccab511cc20"
+          },
+          {
+            "result": {
+              "duration": 1176700,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I select product",
+            "match": {
+              "location": "HomepageSteps.selectProduct()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "4c37098f-ec5f-4970-9ba9-8bae9a327ab7"
+          },
+          {
+            "result": {
+              "duration": 317300,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I click button Beli for add to cart",
+            "match": {
+              "location": "HomepageSteps.clickButtonBeli()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "8b294ed2-f379-400e-9fd8-70cfb792e337"
+          },
+          {
+            "result": {
+              "error_message": "com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Homepage/Add_Item_to_Cart/android.widget.Button (2) not found\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)\r\n\tat com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)\r\n\tat com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)\r\n\tat com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)\r\n\tat com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)\r\n\tat com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)\r\n\tat com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)\r\n\tat com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1490)\r\n\tat com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$0.call(Unknown Source)\r\n\tat HomepageSteps.addItemToCart(HomepageSteps.groovy:59)\r\n\tat ✽.Items add to cart(E:/TUGAS/Kampus Merdeka/Clone4/QE_Aida-Paramita/31_Mini Project/praktikum/CI-CD-Mobile/Include/features/AddItemtoCart.feature:22)\r\n",
+              "duration": 31270178800,
+              "status": "failed"
+            },
+            "line": 22,
+            "name": "Items add to cart",
+            "match": {
+              "location": "HomepageSteps.addItemToCart()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "42be1417-c5c2-42bc-8fad-45cc2631620d"
+          }
+        ]
+      }
+    ],
+    "name": "Add Items to Cart",
+    "description": "",
+    "id": "add-items-to-cart",
+    "keyword": "Feature",
+    "uri": "E:/TUGAS/Kampus Merdeka/Clone4/QE_Aida-Paramita/31_Mini Project/praktikum/CI-CD-Mobile/Include/features/AddItemtoCart.feature",
+    "tags": []
+  }
+]

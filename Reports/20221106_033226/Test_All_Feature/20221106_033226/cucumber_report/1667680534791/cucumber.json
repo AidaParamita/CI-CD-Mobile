@@ -1,0 +1,117 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 14,
+        "name": "User logout",
+        "description": "",
+        "id": "logout;user-logout;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 30168738900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I open Application",
+            "match": {
+              "location": "AuthSteps.openAPk()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1715827200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click icon login",
+            "match": {
+              "location": "AuthSteps.clickIconLogin()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5183868200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I fill correct email olaf@gmail.com and password olafaja",
+            "match": {
+              "arguments": [
+                {
+                  "val": "olaf@gmail.com",
+                  "offset": 21
+                },
+                {
+                  "val": "olafaja",
+                  "offset": 49
+                }
+              ],
+              "location": "AuthSteps.correctLogin(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 846824500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click login button",
+            "match": {
+              "location": "AuthSteps.clickButtonLogin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 563600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I in homepage",
+            "match": {
+              "location": "AuthSteps.homepage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 588900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "i click icon logout",
+            "match": {
+              "location": "AuthSteps.clickButtonLogout()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2196488600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I logout",
+            "match": {
+              "location": "AuthSteps.logout()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Logout",
+    "description": "",
+    "id": "logout",
+    "keyword": "Feature",
+    "uri": "E:/TUGAS/Kampus Merdeka/Clone4/QE_Aida-Paramita/31_Mini Project/praktikum/CI-CD-Mobile/Include/features/Logout.feature",
+    "tags": []
+  }
+]

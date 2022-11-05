@@ -1,0 +1,980 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test_All_Feature" time="432.635" tests="1" failures="1" errors="0">
+   <testsuite name="Test_All_Feature" tests="1" failures="1" errors="0" time="432.635" skipped="0" timestamp="2022-11-06 03:32:29" hostname="AIDA - 192.168.56.1" id="Test Suites/Test_All_Feature">
+      <properties>
+         <property name="deviceName" value="samsung SM-G610F (Android 8.1.0)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\TUGAS\\Kampus Merdeka\\Clone4\\QE_Aida-Paramita\\31_Mini Project\\praktikum\\CI-CD-Mobile\\Reports\\20221106_033226\\Test_All_Feature\\20221106_033226"/>
+         <property name="logFiles" value="E:\\TUGAS\\Kampus Merdeka\\Clone4\\QE_Aida-Paramita\\31_Mini Project\\praktikum\\CI-CD-Mobile\\Reports\\20221106_033226\\Test_All_Feature\\20221106_033226\\appium.log, E:\\TUGAS\\Kampus Merdeka\\Clone4\\QE_Aida-Paramita\\31_Mini Project\\praktikum\\CI-CD-Mobile\\Reports\\20221106_033226\\Test_All_Feature\\20221106_033226\\execution0.log"/>
+         <property name="attachments" value="E:\\TUGAS\\Kampus Merdeka\\Clone4\\QE_Aida-Paramita\\31_Mini Project\\praktikum\\CI-CD-Mobile\\Reports\\20221106_033226\\Test_All_Feature\\20221106_033226\\1667680719706.png, E:\\TUGAS\\Kampus Merdeka\\Clone4\\QE_Aida-Paramita\\31_Mini Project\\praktikum\\CI-CD-Mobile\\Reports\\20221106_033226\\Test_All_Feature\\20221106_033226\\1667680781210.png"/>
+         <property name="hostName" value="AIDA - 192.168.56.1"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.3.0.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="SM-G610F"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="3300e666d756148d"/>
+         <property name="deviceName" value="samsung SM-G610F (Android 8.1.0)"/>
+         <property name="deviceOSVersion" value="8.1.0"/>
+      </properties>
+      <testcase name="Test Cases/TestAll" time="432.293" classname="Test Cases/TestAll" status="FAILED">
+         <failure type="FAILED" message="Test Cases/TestAll FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Feature file 'Include/features/AddItemtoCart.feature' was failed
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:114)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:75)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:248)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at TestAll.run(TestAll:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667680346563.run(TempTestSuite1667680346563.groovy:36)
+"/>
+         <system-out><![CDATA[2022-11-06 03:32:30 - [TEST_CASE][FAILED] - Test Cases/TestAll: Test Cases/TestAll FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Feature file 'Include/features/AddItemtoCart.feature' was failed
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:114)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:75)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:248)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at TestAll.run(TestAll:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667680346563.run(TempTestSuite1667680346563.groovy:36)
+
+
+2022-11-06 03:32:30 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/Register.feature"): Feature file: 'Include/features/Register.feature' was passed
+
+2022-11-06 03:32:30 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/Register.feature' and extract report to folder: 'E:\TUGAS\Kampus Merdeka\Clone4\QE_Aida-Paramita\31_Mini Project\praktikum\CI-CD-Mobile\Reports\20221106_033226\Test_All_Feature\20221106_033226/cucumber_report/1667680350761'...
+
+2022-11-06 03:32:31 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO User create new account: SCENARIO User create new account
+
+2022-11-06 03:32:31 - [TEST_STEP][PASSED] - I open Application: I open Application
+
+2022-11-06 03:32:32 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2022-11-06 03:32:34 - [MESSAGE][INFO] - Appium server started on port 61.547
+
+2022-11-06 03:33:17 - [MESSAGE][INFO] - Failed to get OS statusbar's information using default method.
+
+2022-11-06 03:33:17 - [MESSAGE][PASSED] - Started app at: 'C:\Users\AIDA\Downloads\app-release(1).apk'
+
+2022-11-06 03:33:17 - [MESSAGE][PASSED] - I open Application
+
+2022-11-06 03:33:17 - [TEST_STEP][PASSED] - I click icon login: I click icon login
+
+2022-11-06 03:33:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-06 03:33:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Auth/Login/android.widget.Button'
+
+2022-11-06 03:33:19 - [MESSAGE][PASSED] - I click icon login
+
+2022-11-06 03:33:19 - [TEST_STEP][PASSED] - I fill correct fullname Nessie3 email nessie3@gmail.com and password nessie3aja: I fill correct fullname Nessie3 email nessie3@gmail.com and password nessie3aja
+
+2022-11-06 03:33:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-06 03:33:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Auth/Register/android.widget.Button (1)'
+
+2022-11-06 03:33:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-06 03:33:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Auth/Register/android.widget.EditText - Alex Under, Fullname'
+
+2022-11-06 03:33:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-06 03:33:23 - [MESSAGE][PASSED] - Element 'Object Repository/Auth/Register/android.widget.EditText - Alex Under, Fullname (1)' text is cleared
+
+2022-11-06 03:33:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-06 03:33:24 - [MESSAGE][PASSED] - Text 'Nessie3' has been set to element 'Object Repository/Auth/Register/android.widget.EditText - Fullname'
+
+2022-11-06 03:33:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-06 03:33:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Auth/Register/android.widget.EditText - alexemail.com, Email'
+
+2022-11-06 03:33:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-06 03:33:26 - [MESSAGE][PASSED] - Element 'Object Repository/Auth/Register/android.widget.EditText - alexemail.com, Email (1)' text is cleared
+
+2022-11-06 03:33:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-06 03:33:27 - [MESSAGE][PASSED] - Text 'nessie3@gmail.com' has been set to element 'Object Repository/Auth/Register/android.widget.EditText - Email'
+
+2022-11-06 03:33:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-06 03:33:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Auth/Register/android.widget.EditText - 123123123, Password'
+
+2022-11-06 03:33:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-06 03:33:29 - [MESSAGE][PASSED] - Element 'Object Repository/Auth/Register/android.widget.EditText - 123123123, Password (1)' text is cleared
+
+2022-11-06 03:33:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-06 03:33:30 - [MESSAGE][PASSED] - Text 'nessie3aja' has been set to element 'Object Repository/Auth/Register/android.widget.EditText - Password'
+
+2022-11-06 03:33:31 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2022-11-06 03:33:31 - [MESSAGE][PASSED] - I fill correct fullname Nessie3 email nessie3@gmail.com and password nessie3aja
+
+2022-11-06 03:33:31 - [TEST_STEP][PASSED] - I click register button: I click register button
+
+2022-11-06 03:33:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-06 03:33:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Auth/Register/android.widget.Button (2)'
+
+2022-11-06 03:33:32 - [MESSAGE][PASSED] - I click register button
+
+2022-11-06 03:33:32 - [TEST_STEP][PASSED] - I in homepage: I in homepage
+
+2022-11-06 03:33:32 - [MESSAGE][PASSED] - I in homepage
+
+2022-11-06 03:33:32 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO User create new account: SCENARIO User create new account
+
+2022-11-06 03:33:32 - [TEST_STEP][PASSED] - I open Application: I open Application
+
+2022-11-06 03:34:03 - [MESSAGE][INFO] - Failed to get OS statusbar's information using default method.
+
+2022-11-06 03:34:03 - [MESSAGE][PASSED] - Started app at: 'C:\Users\AIDA\Downloads\app-release(1).apk'
+
+2022-11-06 03:34:03 - [MESSAGE][PASSED] - I open Application
+
+2022-11-06 03:34:03 - [TEST_STEP][PASSED] - I click icon login: I click icon login
+
+2022-11-06 03:34:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-06 03:34:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Auth/Login/android.widget.Button'
+
+2022-11-06 03:34:05 - [MESSAGE][PASSED] - I click icon login
+
+2022-11-06 03:34:05 - [TEST_STEP][PASSED] - I fill correct fullname  email nessie3@gmail.com and password nessie3aja: I fill correct fullname  email nessie3@gmail.com and password nessie3aja
+
+2022-11-06 03:34:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-06 03:34:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Auth/Register/android.widget.Button (1)'
+
+2022-11-06 03:34:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-06 03:34:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Auth/Register/android.widget.EditText - Alex Under, Fullname'
+
+2022-11-06 03:34:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-06 03:34:08 - [MESSAGE][PASSED] - Element 'Object Repository/Auth/Register/android.widget.EditText - Alex Under, Fullname (1)' text is cleared
+
+2022-11-06 03:34:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-06 03:34:09 - [MESSAGE][PASSED] - Text 'Nessie3' has been set to element 'Object Repository/Auth/Register/android.widget.EditText - Fullname'
+
+2022-11-06 03:34:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-06 03:34:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Auth/Register/android.widget.EditText - alexemail.com, Email'
+
+2022-11-06 03:34:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-06 03:34:12 - [MESSAGE][PASSED] - Element 'Object Repository/Auth/Register/android.widget.EditText - alexemail.com, Email (1)' text is cleared
+
+2022-11-06 03:34:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-06 03:34:13 - [MESSAGE][PASSED] - Text 'nessie3@gmail.com' has been set to element 'Object Repository/Auth/Register/android.widget.EditText - Email'
+
+2022-11-06 03:34:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-06 03:34:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Auth/Register/android.widget.EditText - 123123123, Password'
+
+2022-11-06 03:34:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-06 03:34:15 - [MESSAGE][PASSED] - Element 'Object Repository/Auth/Register/android.widget.EditText - 123123123, Password (1)' text is cleared
+
+2022-11-06 03:34:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-06 03:34:16 - [MESSAGE][PASSED] - Text 'nessie3aja' has been set to element 'Object Repository/Auth/Register/android.widget.EditText - Password'
+
+2022-11-06 03:34:17 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2022-11-06 03:34:17 - [MESSAGE][PASSED] - I fill correct fullname  email nessie3@gmail.com and password nessie3aja
+
+2022-11-06 03:34:17 - [TEST_STEP][PASSED] - I click register button: I click register button
+
+2022-11-06 03:34:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-06 03:34:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Auth/Register/android.widget.Button (2)'
+
+2022-11-06 03:34:18 - [MESSAGE][PASSED] - I click register button
+
+2022-11-06 03:34:18 - [TEST_STEP][PASSED] - I in homepage: I in homepage
+
+2022-11-06 03:34:18 - [MESSAGE][PASSED] - I in homepage
+
+2022-11-06 03:34:18 - [MESSAGE][PASSED] - Feature file: 'Include/features/Register.feature' was passed
+
+2022-11-06 03:34:18 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/Login.feature"): Feature file: 'Include/features/Login.feature' was passed
+
+2022-11-06 03:34:18 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/Login.feature' and extract report to folder: 'E:\TUGAS\Kampus Merdeka\Clone4\QE_Aida-Paramita\31_Mini Project\praktikum\CI-CD-Mobile\Reports\20221106_033226\Test_All_Feature\20221106_033226/cucumber_report/1667680458649'...
+
+2022-11-06 03:34:18 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO User log in into website using existing acount: SCENARIO User log in into website using existing acount
+
+2022-11-06 03:34:18 - [TEST_STEP][PASSED] - I open Application: I open Application
+
+2022-11-06 03:34:48 - [MESSAGE][INFO] - Failed to get OS statusbar's information using default method.
+
+2022-11-06 03:34:48 - [MESSAGE][PASSED] - Started app at: 'C:\Users\AIDA\Downloads\app-release(1).apk'
+
+2022-11-06 03:34:48 - [MESSAGE][PASSED] - I open Application
+
+2022-11-06 03:34:48 - [TEST_STEP][PASSED] - I click icon login: I click icon login
+
+2022-11-06 03:34:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-06 03:34:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Auth/Login/android.widget.Button'
+
+2022-11-06 03:34:50 - [MESSAGE][PASSED] - I click icon login
+
+2022-11-06 03:34:50 - [TEST_STEP][PASSED] - I fill correct email olaf@gmail.com and password olafaja: I fill correct email olaf@gmail.com and password olafaja
+
+2022-11-06 03:34:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-06 03:34:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Auth/Login/android.view.View'
+
+2022-11-06 03:34:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-06 03:34:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Auth/Login/android.widget.EditText - Email'
+
+2022-11-06 03:34:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-06 03:34:53 - [MESSAGE][PASSED] - Text 'olaf@gmail.com' has been set to element 'Object Repository/Auth/Login/android.widget.EditText - Email (1)'
+
+2022-11-06 03:34:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-06 03:34:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Auth/Login/android.widget.EditText - Password'
+
+2022-11-06 03:34:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-06 03:34:55 - [MESSAGE][PASSED] - Text 'olafaja' has been set to element 'Object Repository/Auth/Login/android.widget.EditText - Password (1)'
+
+2022-11-06 03:34:55 - [MESSAGE][PASSED] - I fill correct email olaf@gmail.com and password olafaja
+
+2022-11-06 03:34:55 - [TEST_STEP][PASSED] - I click login button: I click login button
+
+2022-11-06 03:34:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-06 03:34:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Auth/Login/android.widget.Button (1)'
+
+2022-11-06 03:34:56 - [MESSAGE][PASSED] - I click login button
+
+2022-11-06 03:34:56 - [TEST_STEP][PASSED] - I in homepage: I in homepage
+
+2022-11-06 03:34:56 - [MESSAGE][PASSED] - I in homepage
+
+2022-11-06 03:34:56 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO User log in into website using existing acount: SCENARIO User log in into website using existing acount
+
+2022-11-06 03:34:56 - [TEST_STEP][PASSED] - I open Application: I open Application
+
+2022-11-06 03:35:26 - [MESSAGE][INFO] - Failed to get OS statusbar's information using default method.
+
+2022-11-06 03:35:26 - [MESSAGE][PASSED] - Started app at: 'C:\Users\AIDA\Downloads\app-release(1).apk'
+
+2022-11-06 03:35:26 - [MESSAGE][PASSED] - I open Application
+
+2022-11-06 03:35:26 - [TEST_STEP][PASSED] - I click icon login: I click icon login
+
+2022-11-06 03:35:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-06 03:35:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Auth/Login/android.widget.Button'
+
+2022-11-06 03:35:28 - [MESSAGE][PASSED] - I click icon login
+
+2022-11-06 03:35:28 - [TEST_STEP][PASSED] - I fill correct email  and password olafaja: I fill correct email  and password olafaja
+
+2022-11-06 03:35:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-06 03:35:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Auth/Login/android.view.View'
+
+2022-11-06 03:35:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-06 03:35:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Auth/Login/android.widget.EditText - Email'
+
+2022-11-06 03:35:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-06 03:35:31 - [MESSAGE][PASSED] - Text 'olaf@gmail.com' has been set to element 'Object Repository/Auth/Login/android.widget.EditText - Email (1)'
+
+2022-11-06 03:35:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-06 03:35:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Auth/Login/android.widget.EditText - Password'
+
+2022-11-06 03:35:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-06 03:35:33 - [MESSAGE][PASSED] - Text 'olafaja' has been set to element 'Object Repository/Auth/Login/android.widget.EditText - Password (1)'
+
+2022-11-06 03:35:33 - [MESSAGE][PASSED] - I fill correct email  and password olafaja
+
+2022-11-06 03:35:33 - [TEST_STEP][PASSED] - I click login button: I click login button
+
+2022-11-06 03:35:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-06 03:35:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Auth/Login/android.widget.Button (1)'
+
+2022-11-06 03:35:34 - [MESSAGE][PASSED] - I click login button
+
+2022-11-06 03:35:34 - [TEST_STEP][PASSED] - I in homepage: I in homepage
+
+2022-11-06 03:35:34 - [MESSAGE][PASSED] - I in homepage
+
+2022-11-06 03:35:34 - [MESSAGE][PASSED] - Feature file: 'Include/features/Login.feature' was passed
+
+2022-11-06 03:35:34 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/Logout.feature"): Feature file: 'Include/features/Logout.feature' was passed
+
+2022-11-06 03:35:34 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/Logout.feature' and extract report to folder: 'E:\TUGAS\Kampus Merdeka\Clone4\QE_Aida-Paramita\31_Mini Project\praktikum\CI-CD-Mobile\Reports\20221106_033226\Test_All_Feature\20221106_033226/cucumber_report/1667680534791'...
+
+2022-11-06 03:35:34 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO User logout: SCENARIO User logout
+
+2022-11-06 03:35:34 - [TEST_STEP][PASSED] - I open Application: I open Application
+
+2022-11-06 03:36:05 - [MESSAGE][INFO] - Failed to get OS statusbar's information using default method.
+
+2022-11-06 03:36:05 - [MESSAGE][PASSED] - Started app at: 'C:\Users\AIDA\Downloads\app-release(1).apk'
+
+2022-11-06 03:36:05 - [MESSAGE][PASSED] - I open Application
+
+2022-11-06 03:36:05 - [TEST_STEP][PASSED] - I click icon login: I click icon login
+
+2022-11-06 03:36:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-06 03:36:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Auth/Login/android.widget.Button'
+
+2022-11-06 03:36:06 - [MESSAGE][PASSED] - I click icon login
+
+2022-11-06 03:36:06 - [TEST_STEP][PASSED] - I fill correct email olaf@gmail.com and password olafaja: I fill correct email olaf@gmail.com and password olafaja
+
+2022-11-06 03:36:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-06 03:36:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Auth/Login/android.view.View'
+
+2022-11-06 03:36:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-06 03:36:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Auth/Login/android.widget.EditText - Email'
+
+2022-11-06 03:36:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-06 03:36:09 - [MESSAGE][PASSED] - Text 'olaf@gmail.com' has been set to element 'Object Repository/Auth/Login/android.widget.EditText - Email (1)'
+
+2022-11-06 03:36:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-06 03:36:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Auth/Login/android.widget.EditText - Password'
+
+2022-11-06 03:36:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-06 03:36:11 - [MESSAGE][PASSED] - Text 'olafaja' has been set to element 'Object Repository/Auth/Login/android.widget.EditText - Password (1)'
+
+2022-11-06 03:36:11 - [MESSAGE][PASSED] - I fill correct email olaf@gmail.com and password olafaja
+
+2022-11-06 03:36:11 - [TEST_STEP][PASSED] - I click login button: I click login button
+
+2022-11-06 03:36:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-06 03:36:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Auth/Login/android.widget.Button (1)'
+
+2022-11-06 03:36:12 - [MESSAGE][PASSED] - I click login button
+
+2022-11-06 03:36:12 - [TEST_STEP][PASSED] - I in homepage: I in homepage
+
+2022-11-06 03:36:12 - [MESSAGE][PASSED] - I in homepage
+
+2022-11-06 03:36:12 - [TEST_STEP][PASSED] - i click icon logout: i click icon logout
+
+2022-11-06 03:36:12 - [MESSAGE][PASSED] - i click icon logout
+
+2022-11-06 03:36:12 - [TEST_STEP][PASSED] - I logout: I logout
+
+2022-11-06 03:36:14 - [MESSAGE][PASSED] - Close app successfully
+
+2022-11-06 03:36:14 - [MESSAGE][PASSED] - I logout
+
+2022-11-06 03:36:15 - [MESSAGE][PASSED] - Feature file: 'Include/features/Logout.feature' was passed
+
+2022-11-06 03:36:15 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/ViewDetailItems.feature"): Feature file: 'Include/features/ViewDetailItems.feature' was passed
+
+2022-11-06 03:36:15 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/ViewDetailItems.feature' and extract report to folder: 'E:\TUGAS\Kampus Merdeka\Clone4\QE_Aida-Paramita\31_Mini Project\praktikum\CI-CD-Mobile\Reports\20221106_033226\Test_All_Feature\20221106_033226/cucumber_report/1667680575007'...
+
+2022-11-06 03:36:15 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO User View Detail: SCENARIO User View Detail
+
+2022-11-06 03:36:15 - [TEST_STEP][PASSED] - I open Application: I open Application
+
+2022-11-06 03:36:15 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2022-11-06 03:36:16 - [MESSAGE][INFO] - Appium server started on port 62.196
+
+2022-11-06 03:36:47 - [MESSAGE][INFO] - Failed to get OS statusbar's information using default method.
+
+2022-11-06 03:36:47 - [MESSAGE][PASSED] - Started app at: 'C:\Users\AIDA\Downloads\app-release(1).apk'
+
+2022-11-06 03:36:47 - [MESSAGE][PASSED] - I open Application
+
+2022-11-06 03:36:47 - [TEST_STEP][PASSED] - I click icon login: I click icon login
+
+2022-11-06 03:36:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-06 03:36:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Auth/Login/android.widget.Button'
+
+2022-11-06 03:36:48 - [MESSAGE][PASSED] - I click icon login
+
+2022-11-06 03:36:48 - [TEST_STEP][PASSED] - I fill correct email olaf@gmail.com and password olafaja: I fill correct email olaf@gmail.com and password olafaja
+
+2022-11-06 03:36:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-06 03:36:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Auth/Login/android.view.View'
+
+2022-11-06 03:36:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-06 03:36:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Auth/Login/android.widget.EditText - Email'
+
+2022-11-06 03:36:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-06 03:36:52 - [MESSAGE][PASSED] - Text 'olaf@gmail.com' has been set to element 'Object Repository/Auth/Login/android.widget.EditText - Email (1)'
+
+2022-11-06 03:36:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-06 03:36:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Auth/Login/android.widget.EditText - Password'
+
+2022-11-06 03:36:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-06 03:36:54 - [MESSAGE][PASSED] - Text 'olafaja' has been set to element 'Object Repository/Auth/Login/android.widget.EditText - Password (1)'
+
+2022-11-06 03:36:54 - [MESSAGE][PASSED] - I fill correct email olaf@gmail.com and password olafaja
+
+2022-11-06 03:36:54 - [TEST_STEP][PASSED] - I click login button: I click login button
+
+2022-11-06 03:36:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-06 03:36:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Auth/Login/android.widget.Button (1)'
+
+2022-11-06 03:36:55 - [MESSAGE][PASSED] - I click login button
+
+2022-11-06 03:36:55 - [TEST_STEP][PASSED] - I in homepage: I in homepage
+
+2022-11-06 03:36:55 - [MESSAGE][PASSED] - I in homepage
+
+2022-11-06 03:36:55 - [TEST_STEP][PASSED] - I see detail product: I see detail product
+
+2022-11-06 03:36:56 - [MESSAGE][PASSED] - Close app successfully
+
+2022-11-06 03:36:56 - [MESSAGE][PASSED] - I see detail product
+
+2022-11-06 03:36:56 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO User View Detail - without login: SCENARIO User View Detail - without login
+
+2022-11-06 03:36:56 - [TEST_STEP][PASSED] - I open Application: I open Application
+
+2022-11-06 03:36:56 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2022-11-06 03:36:58 - [MESSAGE][INFO] - Appium server started on port 62.312
+
+2022-11-06 03:37:28 - [MESSAGE][INFO] - Failed to get OS statusbar's information using default method.
+
+2022-11-06 03:37:29 - [MESSAGE][PASSED] - Started app at: 'C:\Users\AIDA\Downloads\app-release(1).apk'
+
+2022-11-06 03:37:29 - [MESSAGE][PASSED] - I open Application
+
+2022-11-06 03:37:29 - [TEST_STEP][PASSED] - I in homepage: I in homepage
+
+2022-11-06 03:37:29 - [MESSAGE][PASSED] - I in homepage
+
+2022-11-06 03:37:29 - [TEST_STEP][PASSED] - I see detail product: I see detail product
+
+2022-11-06 03:37:30 - [MESSAGE][PASSED] - Close app successfully
+
+2022-11-06 03:37:30 - [MESSAGE][PASSED] - I see detail product
+
+2022-11-06 03:37:30 - [MESSAGE][PASSED] - Feature file: 'Include/features/ViewDetailItems.feature' was passed
+
+2022-11-06 03:37:30 - [TEST_STEP][FAILED] - runFeatureFile("Include/features/AddItemtoCart.feature"): Keyword runFeatureFile was failed (Root cause: com.kms.katalon.core.exception.StepFailedException: Feature file 'Include/features/AddItemtoCart.feature' was failed
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:114)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:75)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:248)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at TestAll.run(TestAll:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667680346563.run(TempTestSuite1667680346563.groovy:36)
+)
+
+2022-11-06 03:37:30 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/AddItemtoCart.feature' and extract report to folder: 'E:\TUGAS\Kampus Merdeka\Clone4\QE_Aida-Paramita\31_Mini Project\praktikum\CI-CD-Mobile\Reports\20221106_033226\Test_All_Feature\20221106_033226/cucumber_report/1667680650544'...
+
+2022-11-06 03:37:30 - [TEST_CASE][FAILED] - Start Test Case : SCENARIO Add Items to Cart: SCENARIO Add Items to Cart FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Homepage/Add_Item_to_Cart/android.widget.Button (2) not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1490)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$0.call(Unknown Source)
+	at HomepageSteps.addItemToCart(HomepageSteps.groovy:59)
+	at ✽.Items add to cart(E:/TUGAS/Kampus Merdeka/Clone4/QE_Aida-Paramita/31_Mini Project/praktikum/CI-CD-Mobile/Include/features/AddItemtoCart.feature:11)
+
+
+2022-11-06 03:37:30 - [TEST_STEP][PASSED] - I open Application: I open Application
+
+2022-11-06 03:37:30 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2022-11-06 03:37:31 - [MESSAGE][INFO] - Appium server started on port 62.440
+
+2022-11-06 03:38:01 - [MESSAGE][INFO] - Failed to get OS statusbar's information using default method.
+
+2022-11-06 03:38:01 - [MESSAGE][PASSED] - Started app at: 'C:\Users\AIDA\Downloads\app-release(1).apk'
+
+2022-11-06 03:38:01 - [MESSAGE][PASSED] - I open Application
+
+2022-11-06 03:38:01 - [TEST_STEP][PASSED] - I click icon login: I click icon login
+
+2022-11-06 03:38:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-06 03:38:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Auth/Login/android.widget.Button'
+
+2022-11-06 03:38:03 - [MESSAGE][PASSED] - I click icon login
+
+2022-11-06 03:38:03 - [TEST_STEP][PASSED] - I fill correct email olaf@gmail.com and password olafaja: I fill correct email olaf@gmail.com and password olafaja
+
+2022-11-06 03:38:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-06 03:38:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Auth/Login/android.view.View'
+
+2022-11-06 03:38:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-06 03:38:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Auth/Login/android.widget.EditText - Email'
+
+2022-11-06 03:38:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-06 03:38:06 - [MESSAGE][PASSED] - Text 'olaf@gmail.com' has been set to element 'Object Repository/Auth/Login/android.widget.EditText - Email (1)'
+
+2022-11-06 03:38:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-06 03:38:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Auth/Login/android.widget.EditText - Password'
+
+2022-11-06 03:38:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-06 03:38:08 - [MESSAGE][PASSED] - Text 'olafaja' has been set to element 'Object Repository/Auth/Login/android.widget.EditText - Password (1)'
+
+2022-11-06 03:38:08 - [MESSAGE][PASSED] - I fill correct email olaf@gmail.com and password olafaja
+
+2022-11-06 03:38:08 - [TEST_STEP][PASSED] - I click login button: I click login button
+
+2022-11-06 03:38:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-06 03:38:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Auth/Login/android.widget.Button (1)'
+
+2022-11-06 03:38:09 - [MESSAGE][PASSED] - I click login button
+
+2022-11-06 03:38:09 - [TEST_STEP][PASSED] - I in homepage: I in homepage
+
+2022-11-06 03:38:09 - [MESSAGE][PASSED] - I in homepage
+
+2022-11-06 03:38:09 - [TEST_STEP][PASSED] - I select product: I select product
+
+2022-11-06 03:38:09 - [MESSAGE][PASSED] - I select product
+
+2022-11-06 03:38:09 - [TEST_STEP][PASSED] - I click button Beli for add to cart: I click button Beli for add to cart
+
+2022-11-06 03:38:09 - [MESSAGE][PASSED] - I click button Beli for add to cart
+
+2022-11-06 03:38:09 - [TEST_STEP][FAILED] - Items add to cart: Items add to cart FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Homepage/Add_Item_to_Cart/android.widget.Button (2) not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1490)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$0.call(Unknown Source)
+	at HomepageSteps.addItemToCart(HomepageSteps.groovy:59)
+	at ✽.Items add to cart(E:/TUGAS/Kampus Merdeka/Clone4/QE_Aida-Paramita/31_Mini Project/praktikum/CI-CD-Mobile/Include/features/AddItemtoCart.feature:11)
+
+
+2022-11-06 03:38:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-06 03:38:39 - [MESSAGE][FAILED] - Object Object Repository/Homepage/Add_Item_to_Cart/android.widget.Button (2) not found
+
+2022-11-06 03:38:40 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/Homepage/Add_Item_to_Cart/android.widget.Button (2)' (Root cause: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Homepage/Add_Item_to_Cart/android.widget.Button (2) not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1490)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$0.call(Unknown Source)
+	at HomepageSteps.addItemToCart(HomepageSteps.groovy:59)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:68)
+	at cucumber.runner.TestStep.run(TestStep.java:50)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.runtime.Runtime.runFeature(Runtime.java:120)
+	at cucumber.runtime.Runtime.run(Runtime.java:106)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:108)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:75)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:248)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at TestAll.run(TestAll:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667680346563.run(TempTestSuite1667680346563.groovy:36)
+)
+[[ATTACHMENT|E:\\TUGAS\\Kampus Merdeka\\Clone4\\QE_Aida-Paramita\\31_Mini Project\\praktikum\\CI-CD-Mobile\\Reports\\20221106_033226\\Test_All_Feature\\20221106_033226\\1667680719706.png]]
+
+2022-11-06 03:38:40 - [MESSAGE][FAILED] - Items add to cart FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Homepage/Add_Item_to_Cart/android.widget.Button (2) not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1490)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$0.call(Unknown Source)
+	at HomepageSteps.addItemToCart(HomepageSteps.groovy:59)
+	at ✽.Items add to cart(E:/TUGAS/Kampus Merdeka/Clone4/QE_Aida-Paramita/31_Mini Project/praktikum/CI-CD-Mobile/Include/features/AddItemtoCart.feature:11)
+
+
+2022-11-06 03:38:40 - [TEST_CASE][FAILED] - Start Test Case : SCENARIO Add Items to Cart - without login: SCENARIO Add Items to Cart - without login FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Homepage/Add_Item_to_Cart/android.widget.Button (2) not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1490)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$0.call(Unknown Source)
+	at HomepageSteps.addItemToCart(HomepageSteps.groovy:59)
+	at ✽.Items add to cart(E:/TUGAS/Kampus Merdeka/Clone4/QE_Aida-Paramita/31_Mini Project/praktikum/CI-CD-Mobile/Include/features/AddItemtoCart.feature:22)
+
+
+2022-11-06 03:38:40 - [TEST_STEP][PASSED] - I open Application: I open Application
+
+2022-11-06 03:39:11 - [MESSAGE][INFO] - Failed to get OS statusbar's information using default method.
+
+2022-11-06 03:39:11 - [MESSAGE][PASSED] - Started app at: 'C:\Users\AIDA\Downloads\app-release(1).apk'
+
+2022-11-06 03:39:11 - [MESSAGE][PASSED] - I open Application
+
+2022-11-06 03:39:11 - [TEST_STEP][PASSED] - I in homepage: I in homepage
+
+2022-11-06 03:39:11 - [MESSAGE][PASSED] - I in homepage
+
+2022-11-06 03:39:11 - [TEST_STEP][PASSED] - I select product: I select product
+
+2022-11-06 03:39:11 - [MESSAGE][PASSED] - I select product
+
+2022-11-06 03:39:11 - [TEST_STEP][PASSED] - I click button Beli for add to cart: I click button Beli for add to cart
+
+2022-11-06 03:39:11 - [MESSAGE][PASSED] - I click button Beli for add to cart
+
+2022-11-06 03:39:11 - [TEST_STEP][FAILED] - Items add to cart: Items add to cart FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Homepage/Add_Item_to_Cart/android.widget.Button (2) not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1490)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$0.call(Unknown Source)
+	at HomepageSteps.addItemToCart(HomepageSteps.groovy:59)
+	at ✽.Items add to cart(E:/TUGAS/Kampus Merdeka/Clone4/QE_Aida-Paramita/31_Mini Project/praktikum/CI-CD-Mobile/Include/features/AddItemtoCart.feature:22)
+
+
+2022-11-06 03:39:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-06 03:39:41 - [MESSAGE][FAILED] - Object Object Repository/Homepage/Add_Item_to_Cart/android.widget.Button (2) not found
+
+2022-11-06 03:39:42 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/Homepage/Add_Item_to_Cart/android.widget.Button (2)' (Root cause: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Homepage/Add_Item_to_Cart/android.widget.Button (2) not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1490)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$0.call(Unknown Source)
+	at HomepageSteps.addItemToCart(HomepageSteps.groovy:59)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:68)
+	at cucumber.runner.TestStep.run(TestStep.java:50)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.runtime.Runtime.runFeature(Runtime.java:120)
+	at cucumber.runtime.Runtime.run(Runtime.java:106)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:108)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:75)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:248)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at TestAll.run(TestAll:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667680346563.run(TempTestSuite1667680346563.groovy:36)
+)
+[[ATTACHMENT|E:\\TUGAS\\Kampus Merdeka\\Clone4\\QE_Aida-Paramita\\31_Mini Project\\praktikum\\CI-CD-Mobile\\Reports\\20221106_033226\\Test_All_Feature\\20221106_033226\\1667680781210.png]]
+
+2022-11-06 03:39:42 - [MESSAGE][FAILED] - Items add to cart FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Homepage/Add_Item_to_Cart/android.widget.Button (2) not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1490)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$0.call(Unknown Source)
+	at HomepageSteps.addItemToCart(HomepageSteps.groovy:59)
+	at ✽.Items add to cart(E:/TUGAS/Kampus Merdeka/Clone4/QE_Aida-Paramita/31_Mini Project/praktikum/CI-CD-Mobile/Include/features/AddItemtoCart.feature:22)
+
+
+2022-11-06 03:39:42 - [MESSAGE][FAILED] - Feature file 'Include/features/AddItemtoCart.feature' was failed
+
+2022-11-06 03:39:42 - [MESSAGE][FAILED] - Keyword runFeatureFile was failed (Root cause: com.kms.katalon.core.exception.StepFailedException: Feature file 'Include/features/AddItemtoCart.feature' was failed
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:114)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:75)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:248)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at TestAll.run(TestAll:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667680346563.run(TempTestSuite1667680346563.groovy:36)
+)]]></system-out>
+         <system-err><![CDATA[2022-11-06 03:32:30 - [TEST_CASE][FAILED] - Test Cases/TestAll: Test Cases/TestAll FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Feature file 'Include/features/AddItemtoCart.feature' was failed
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:114)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:75)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:248)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at TestAll.run(TestAll:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667680346563.run(TempTestSuite1667680346563.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-11-06 03:32:29 - [TEST_SUITE][FAILED] - Test_All_Feature: Test Cases/TestAll FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Feature file 'Include/features/AddItemtoCart.feature' was failed
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:114)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:75)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:248)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at TestAll.run(TestAll:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667680346563.run(TempTestSuite1667680346563.groovy:36)]]></system-out>
+      <system-err><![CDATA[2022-11-06 03:32:29 - [TEST_SUITE][FAILED] - Test_All_Feature: Test Cases/TestAll FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Feature file 'Include/features/AddItemtoCart.feature' was failed
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:114)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:75)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:248)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at TestAll.run(TestAll:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667680346563.run(TempTestSuite1667680346563.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

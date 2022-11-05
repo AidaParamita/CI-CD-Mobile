@@ -1,0 +1,181 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 12,
+        "name": "User create new account",
+        "description": "",
+        "id": "registrasi;user-create-new-account;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 46139078600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I open Application",
+            "match": {
+              "location": "AuthSteps.openAPk()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1962703800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click icon login",
+            "match": {
+              "location": "AuthSteps.clickIconLogin()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12230695600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I fill correct fullname Nessie3 email nessie3@gmail.com and password nessie3aja",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Nessie3",
+                  "offset": 24
+                },
+                {
+                  "val": "nessie3@gmail.com",
+                  "offset": 38
+                },
+                {
+                  "val": "nessie3aja",
+                  "offset": 69
+                }
+              ],
+              "location": "AuthSteps.correctRegis(String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 781868000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click register button",
+            "match": {
+              "location": "AuthSteps.clickButtonRegis()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1362000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I in homepage",
+            "match": {
+              "location": "AuthSteps.homepage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "User create new account",
+        "description": "",
+        "id": "registrasi;user-create-new-account;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 30630989400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I open Application",
+            "match": {
+              "location": "AuthSteps.openAPk()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1669013600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click icon login",
+            "match": {
+              "location": "AuthSteps.clickIconLogin()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12771547000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I fill correct fullname  email nessie3@gmail.com and password nessie3aja",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 24
+                },
+                {
+                  "val": "nessie3@gmail.com",
+                  "offset": 31
+                },
+                {
+                  "val": "nessie3aja",
+                  "offset": 62
+                }
+              ],
+              "location": "AuthSteps.correctRegis(String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 716675800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click register button",
+            "match": {
+              "location": "AuthSteps.clickButtonRegis()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1307500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I in homepage",
+            "match": {
+              "location": "AuthSteps.homepage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Registrasi",
+    "description": "",
+    "id": "registrasi",
+    "keyword": "Feature",
+    "uri": "E:/TUGAS/Kampus Merdeka/Clone4/QE_Aida-Paramita/31_Mini Project/praktikum/CI-CD-Mobile/Include/features/Register.feature",
+    "tags": []
+  }
+]

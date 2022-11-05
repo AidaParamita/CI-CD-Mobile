@@ -1,0 +1,193 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "BDD_TESTRUN_UUID": "adfc9fb6-0e93-46a8-ae8d-ea8e1f40f4bc",
+        "line": 12,
+        "name": "User create new account",
+        "description": "",
+        "id": "registrasi;user-create-new-account;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 46139078600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I open Application",
+            "match": {
+              "location": "AuthSteps.openAPk()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "e0732aa2-f1e1-4eaa-8620-14ec205002e5"
+          },
+          {
+            "result": {
+              "duration": 1962703800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click icon login",
+            "match": {
+              "location": "AuthSteps.clickIconLogin()"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "42606abd-581e-4af5-b93b-146f35677274"
+          },
+          {
+            "result": {
+              "duration": 12230695600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I fill correct fullname Nessie3 email nessie3@gmail.com and password nessie3aja",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Nessie3",
+                  "offset": 24
+                },
+                {
+                  "val": "nessie3@gmail.com",
+                  "offset": 38
+                },
+                {
+                  "val": "nessie3aja",
+                  "offset": 69
+                }
+              ],
+              "location": "AuthSteps.correctRegis(String,String,String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "196dc73e-52a5-43ca-ab6b-eb2deee62dec"
+          },
+          {
+            "result": {
+              "duration": 781868000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click register button",
+            "match": {
+              "location": "AuthSteps.clickButtonRegis()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "244d2c7e-6aeb-404a-95ce-ab587332cde5"
+          },
+          {
+            "result": {
+              "duration": 1362000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I in homepage",
+            "match": {
+              "location": "AuthSteps.homepage()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "f8ca5f77-0eee-44a3-ad87-22fe04340dda"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "6e233ece-e5d5-46bf-b5bd-fb20bdd94a67",
+        "line": 13,
+        "name": "User create new account",
+        "description": "",
+        "id": "registrasi;user-create-new-account;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 30630989400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I open Application",
+            "match": {
+              "location": "AuthSteps.openAPk()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "d52aba02-778a-41a5-bd25-4ae35b1d1216"
+          },
+          {
+            "result": {
+              "duration": 1669013600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click icon login",
+            "match": {
+              "location": "AuthSteps.clickIconLogin()"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "37d23680-1e5e-463e-b700-363d8983c263"
+          },
+          {
+            "result": {
+              "duration": 12771547000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I fill correct fullname  email nessie3@gmail.com and password nessie3aja",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 24
+                },
+                {
+                  "val": "nessie3@gmail.com",
+                  "offset": 31
+                },
+                {
+                  "val": "nessie3aja",
+                  "offset": 62
+                }
+              ],
+              "location": "AuthSteps.correctRegis(String,String,String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "c2bedb45-fb59-421e-a5d3-63383d471d1d"
+          },
+          {
+            "result": {
+              "duration": 716675800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click register button",
+            "match": {
+              "location": "AuthSteps.clickButtonRegis()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "719ef140-769b-499f-8fcd-0d346c800df2"
+          },
+          {
+            "result": {
+              "duration": 1307500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I in homepage",
+            "match": {
+              "location": "AuthSteps.homepage()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "da953f1a-baf1-42be-a433-135598f5f0a8"
+          }
+        ]
+      }
+    ],
+    "name": "Registrasi",
+    "description": "",
+    "id": "registrasi",
+    "keyword": "Feature",
+    "uri": "E:/TUGAS/Kampus Merdeka/Clone4/QE_Aida-Paramita/31_Mini Project/praktikum/CI-CD-Mobile/Include/features/Register.feature",
+    "tags": []
+  }
+]

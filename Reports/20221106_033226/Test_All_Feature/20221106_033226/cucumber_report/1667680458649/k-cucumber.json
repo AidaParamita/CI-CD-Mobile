@@ -1,0 +1,185 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "BDD_TESTRUN_UUID": "2c57d545-3473-4b95-a648-643f9cfb2b6a",
+        "line": 12,
+        "name": "User log in into website using existing acount",
+        "description": "",
+        "id": "login;user-log-in-into-website-using-existing-acount;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 30112129700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I open Application",
+            "match": {
+              "location": "AuthSteps.openAPk()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "30410da9-30e2-4a37-8963-675c9694b4c0"
+          },
+          {
+            "result": {
+              "duration": 1573778500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click icon login",
+            "match": {
+              "location": "AuthSteps.clickIconLogin()"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "84cdf134-5f3c-4f2f-b47a-40f486dc1425"
+          },
+          {
+            "result": {
+              "duration": 5314946400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I fill correct email olaf@gmail.com and password olafaja",
+            "match": {
+              "arguments": [
+                {
+                  "val": "olaf@gmail.com",
+                  "offset": 21
+                },
+                {
+                  "val": "olafaja",
+                  "offset": 49
+                }
+              ],
+              "location": "AuthSteps.correctLogin(String,String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "8e138494-0fdf-4027-a9d9-1a4dec328b69"
+          },
+          {
+            "result": {
+              "duration": 907147700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click login button",
+            "match": {
+              "location": "AuthSteps.clickButtonLogin()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "ad1f358b-51d7-4569-9f06-c877b9efe406"
+          },
+          {
+            "result": {
+              "duration": 891300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I in homepage",
+            "match": {
+              "location": "AuthSteps.homepage()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "e94e792e-60fc-4fc3-a6dd-db084264dbe9"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "a4b768b0-ba7e-4ec3-83d5-14984dfb65e4",
+        "line": 13,
+        "name": "User log in into website using existing acount",
+        "description": "",
+        "id": "login;user-log-in-into-website-using-existing-acount;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 30175744900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I open Application",
+            "match": {
+              "location": "AuthSteps.openAPk()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "4f055737-5d33-43a7-a92a-601c79b87f2f"
+          },
+          {
+            "result": {
+              "duration": 1564565300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click icon login",
+            "match": {
+              "location": "AuthSteps.clickIconLogin()"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "aa0cf695-4069-4b81-951c-8bbd67a79238"
+          },
+          {
+            "result": {
+              "duration": 5506656400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I fill correct email  and password olafaja",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 21
+                },
+                {
+                  "val": "olafaja",
+                  "offset": 35
+                }
+              ],
+              "location": "AuthSteps.correctLogin(String,String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "8b2040f8-8f8f-4b19-9b79-e04e70e19106"
+          },
+          {
+            "result": {
+              "duration": 832794500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click login button",
+            "match": {
+              "location": "AuthSteps.clickButtonLogin()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "1abd9397-1630-4cb2-8537-f7467a7cdb74"
+          },
+          {
+            "result": {
+              "duration": 614500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I in homepage",
+            "match": {
+              "location": "AuthSteps.homepage()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "51e957a4-972f-4d6f-98c4-50c7ac063d25"
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "E:/TUGAS/Kampus Merdeka/Clone4/QE_Aida-Paramita/31_Mini Project/praktikum/CI-CD-Mobile/Include/features/Login.feature",
+    "tags": []
+  }
+]

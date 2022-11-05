@@ -1,0 +1,162 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "BDD_TESTRUN_UUID": "965d55d9-1404-41fa-9db4-f46b53140fd7",
+        "line": 13,
+        "name": "User View Detail",
+        "description": "",
+        "id": "user-view-detail;user-view-detail;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 32123162800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I open Application",
+            "match": {
+              "location": "AuthSteps.openAPk()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "a0d4d34e-2356-4db6-9399-3ecbce870764"
+          },
+          {
+            "result": {
+              "duration": 1580987800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click icon login",
+            "match": {
+              "location": "AuthSteps.clickIconLogin()"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "81448c9d-47c4-456f-b3d4-86eaa93ad12f"
+          },
+          {
+            "result": {
+              "duration": 5516219000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I fill correct email olaf@gmail.com and password olafaja",
+            "match": {
+              "arguments": [
+                {
+                  "val": "olaf@gmail.com",
+                  "offset": 21
+                },
+                {
+                  "val": "olafaja",
+                  "offset": 49
+                }
+              ],
+              "location": "AuthSteps.correctLogin(String,String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "ac8e7481-4c4c-444d-8e9f-880955a4f2d9"
+          },
+          {
+            "result": {
+              "duration": 857594700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click login button",
+            "match": {
+              "location": "AuthSteps.clickButtonLogin()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "26193be9-57d7-4e83-9876-168074f8d373"
+          },
+          {
+            "result": {
+              "duration": 465900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I in homepage",
+            "match": {
+              "location": "AuthSteps.homepage()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "51cb109e-7c6a-40d5-a350-cdbd8e11bfa9"
+          },
+          {
+            "result": {
+              "duration": 1666311700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I see detail product",
+            "match": {
+              "location": "HomepageSteps.seeDetailProduct()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "6618bbff-9464-43d9-9212-aaec59c3d538"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "ed04c3e3-9da1-40ed-babd-7913c0a574d7",
+        "line": 15,
+        "name": "User View Detail - without login",
+        "description": "",
+        "id": "user-view-detail;user-view-detail---without-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 32175345300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I open Application",
+            "match": {
+              "location": "AuthSteps.openAPk()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "00691b18-5117-4a32-a7b1-07a0e9e5cdec"
+          },
+          {
+            "result": {
+              "duration": 587400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I in homepage",
+            "match": {
+              "location": "AuthSteps.homepage()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "f1fda0b6-4531-4131-a97d-c0f248e5f580"
+          },
+          {
+            "result": {
+              "duration": 1520067600,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I see detail product",
+            "match": {
+              "location": "HomepageSteps.seeDetailProduct()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "ceb75c94-c77d-45c4-894b-bcadb8f23ebc"
+          }
+        ]
+      }
+    ],
+    "name": "User View Detail",
+    "description": "",
+    "id": "user-view-detail",
+    "keyword": "Feature",
+    "uri": "E:/TUGAS/Kampus Merdeka/Clone4/QE_Aida-Paramita/31_Mini Project/praktikum/CI-CD-Mobile/Include/features/ViewDetailItems.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="107.153409">
+<testcase classname="Registrasi" name="User create new account" time="61.347841">
+<system-out><![CDATA[Given I open Application....................................................passed
+When I click icon login.....................................................passed
+And I fill correct fullname Nessie3 email nessie3@gmail.com and password nessie3aja.passed
+And I click register button.................................................passed
+Then I in homepage..........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Registrasi" name="User create new account 2" time="45.805568">
+<system-out><![CDATA[Given I open Application....................................................passed
+When I click icon login.....................................................passed
+And I fill correct fullname  email nessie3@gmail.com and password nessie3aja.passed
+And I click register button.................................................passed
+Then I in homepage..........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
